@@ -4,7 +4,7 @@
 This folder contains data and code for reproducing The Social Cost of Hydroflourocarbons  (SC-HFCs) included in the 2021 
 "[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
 
-The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframework.org/).   
+The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframework.org/) coupled with Resources for the Future's component [MimiIWG](https://www.rff.org/publications/data-tools/social-cost-of-carbon-computing-platform-models-from-the-iwg/) 
 
 ## Requirements
 
