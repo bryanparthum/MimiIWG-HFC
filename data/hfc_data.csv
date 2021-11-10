@@ -1,0 +1,17 @@
+# lifetime from IPCC AR4 [years],,,,
+# radiate efficency from IPCC AR4 [W/m^2/ppb],,,,
+# molecular weight from FAIR [g/mol],,,,
+# radiate efficency fromFAIR [W/m^2/ppb],,,,
+,,,,
+ghg,lifetime,re_ar4,mol_weight,re_fair
+HFC23,270,0.19,70.01,0.18
+HFC32,4.9,0.11,52.02,0.11
+HFC125,29,0.23,120.02,0.23
+HFC134a,14,0.16,102.03,0.16
+HFC143a,52,0.13,84.04,0.16
+HFC152a,1.4,0.09,66.05,0.1
+HFC227ea,34.2,0.26,170.03,0.26
+HFC236fa,240,0.28,152.039,0.24309707
+HFC245fa,7.6,0.28,134.05,0.24
+HFC365mfc,8.6,0.21,148.074,0.22261699
+HFC4310mee,15.9,0.4,252.055,0.42

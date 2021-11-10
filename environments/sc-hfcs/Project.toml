@@ -1,0 +1,5 @@
+[deps]
+Mimi = "e4e893b0-ee5e-52ea-8111-44b3bdec128c"
+MimiIWG = "b1d80750-afbf-11e9-0666-4f25b2ea2b65"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
