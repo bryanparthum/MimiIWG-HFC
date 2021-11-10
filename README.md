@@ -1,7 +1,7 @@
 # The Social Cost of Hydroflourocarbons included in the 2021 Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act
 
 
-This folder contains data and code for reproducing The Social Cost of Hydroflourocarbons  (SC-HFCs) included in the 2021 
+This repo contains data and code for reproducing The Social Cost of Hydroflourocarbons  (SC-HFCs) included in the 2021 
 "[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
 
 The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframework.org/) coupled with Resources for the Future's component [MimiIWG](https://www.rff.org/publications/data-tools/social-cost-of-carbon-computing-platform-models-from-the-iwg/) 
@@ -11,9 +11,9 @@ The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframewo
 1. *Mimi* is free, open-source, and available for download [here](https://www.mimiframework.org/).
 2. *R* is free, open-source, and available for download [here](https://www.r-project.org/).
 
-## Included in this Folder
+## Included in this Repo
 
-1. MimiIWG (zip) - At the time this README was made and when the SC-HFC's were estimated, the repo located [here](https://github.com/bryanparthum/MimiIWG.jl/tree/HFC-implementation) is the Mimi package that will replace the MimiIWG package from the Mimi API. Drop this folder into your Mimi path, and use exactly as you would the MimiIWG folder
+1. MimiIWG.jl - (too large for this repo but recovered the following link) At the time this README was made and when the SC-HFC's were estimated, the repo located [here](https://github.com/bryanparthum/MimiIWG.jl/tree/HFC-implementation) is the Mimi package that will replace the MimiIWG package from the Mimi API. Drop this folder into your Mimi path, and use exactly as you would the MimiIWG folder
 from the API (e.g., add to your environment with "] dev MimiIWG", and precompile with "using MimiIWG"). 
 
 2. Code - this folder contains the replication script for using MimiIWG, the necessary postprocessing code, and additional code for plotting the histograms. 
