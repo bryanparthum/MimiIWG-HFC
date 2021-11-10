@@ -29,14 +29,12 @@ results (i.e., the folder titled: "discontinuity_mismatch" in the Mimi output).
 
 There are three postprocessing scripts.
 
-1. 2_clean_discontinuities.R - This script cleans the raw output from Mimi that identifies the years in which a temperature anomaly occured in each monte-carlo run 
+1. `2_clean_discontinuities.R` - This script cleans the raw output from Mimi that identifies the years in which a temperature anomaly occured in each monte-carlo run 
 and prepares them for use in the subequent script. This is consistent with the methods described in the 
 [2016 TSD](https://www.epa.gov/sites/default/files/2016-12/documents/addendum_to_sc-ghg_tsd_august_2016.pdf) and applies them to all HFCs.
 
-2. 3_clean_sc_hfcs.R - This script cleans the raw output from the Mimi monte-carlo runs. It also pairs all of the discontinuities (temperature anomalies) estimated 
+2. `3_clean_sc_hfcs.R` - This script cleans the raw output from the Mimi monte-carlo runs. It also pairs all of the discontinuities (temperature anomalies) estimated 
 in the PAGE monte-carlo runs for all HFCs and replaces the values with missings. This is consistent with the methods described in the 
 [2016 TSD](https://www.epa.gov/sites/default/files/2016-12/documents/addendum_to_sc-ghg_tsd_august_2016.pdf).
 
-3. 4_clean_data_to_share.R - This script simply compiles all the cleaned individual runs from the previous script and prepares the annual unrounded average SC-HFCs used to estimate 
-the climate benefits in the 2021 
-"[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
+3. `4_clean_data_to_share.R` - This script simply compiles all the cleaned individual runs from the previous script and prepares the annual unrounded average SC-HFCs used to estimate the climate benefits in the 2021 "[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
