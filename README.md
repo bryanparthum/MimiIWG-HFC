@@ -20,7 +20,7 @@ from the API (e.g., add to your environment with `] dev MimiIWG`, and precompile
 
 3. Data - This folder is currently empty, and will be the location of the output from `1_estimate_sc_hfcs.jl` and input to the other postprocessing code. 
 
-4. Final - This folder contains the final numbers and histograms used to estimate the climate benefits in the 2021 Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act. 
+4. Final - This folder contains the final numbers used to estimate the climate benefits in the 2021 Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act. 
 
 ## Additional Information
 
