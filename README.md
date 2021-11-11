@@ -13,7 +13,7 @@ The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframewo
 
 ## Included in this Repo
 
-1. MimiIWG.jl - (too large for this repo but recovered the following link) At the time this README was made and when the SC-HFC's were estimated, the repo located [here](https://github.com/bryanparthum/MimiIWG.jl/tree/HFC-implementation) is the Mimi package that will replace the MimiIWG package from the Mimi API. Drop this folder into your Mimi path, and use exactly as you would the MimiIWG folder
+1. MimiIWG.jl - (too large for this repo but recovered from the following link) At the time this README was made and when the SC-HFC's were estimated, the repo located [here](https://github.com/bryanparthum/MimiIWG.jl/tree/HFC-implementation) is the Mimi package that will replace the MimiIWG package from the Mimi API. Drop this folder into your Mimi path, and use exactly as you would the MimiIWG folder
 from the API (e.g., add to your environment with "] dev MimiIWG", and precompile with "using MimiIWG"). 
 
 2. Code - this folder contains the replication script for using MimiIWG, the necessary postprocessing code, and additional code for plotting the histograms. 
