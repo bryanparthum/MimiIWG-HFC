@@ -419,9 +419,9 @@ version = "2.1.2"
 
 [[MKL_jll]]
 deps = ["Artifacts", "IntelOpenMP_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "Pkg"]
-git-tree-sha1 = "c253236b0ed414624b083e6b72bfe891fbd2c7af"
+git-tree-sha1 = "5455aef09b40e5020e1520f551fa3135040d4ed0"
 uuid = "856f044c-d86e-5d09-b602-aeab76dc8ba7"
-version = "2021.1.1+1"
+version = "2021.1.1+2"
 
 [[MacroTools]]
 deps = ["Markdown", "Random"]
@@ -474,9 +474,11 @@ version = "3.8.6"
 
 [[MimiIWG]]
 deps = ["CSVFiles", "DataFrames", "Dates", "DelimitedFiles", "Distributions", "ExcelReaders", "Interpolations", "Mimi", "MimiDICE2010", "MimiFUND", "MimiPAGE2009", "Query", "Statistics", "StatsBase", "XLSX"]
-path = "C:\\Users\\bparthum\\.julia\\dev\\MimiIWG"
+git-tree-sha1 = "bb48a48bae691de672c9839a4fd29da7b9666606"
+repo-rev = "master"
+repo-url = "https://github.com/rffscghg/MimiIWG.jl.git"
 uuid = "b1d80750-afbf-11e9-0666-4f25b2ea2b65"
-version = "1.0.2-DEV"
+version = "1.1.1-DEV"
 
 [[MimiPAGE2009]]
 deps = ["CSVFiles", "DataFrames", "DelimitedFiles", "Distributions", "Mimi", "Query", "Random"]
@@ -597,9 +599,9 @@ version = "1.7.1"
 
 [[PyCall]]
 deps = ["Conda", "Dates", "Libdl", "LinearAlgebra", "MacroTools", "Serialization", "VersionParsing"]
-git-tree-sha1 = "169bb8ea6b1b143c5cf57df6d34d022a7b60c6db"
+git-tree-sha1 = "4ba3651d33ef76e24fef6a598b63ffd1c5e1cd17"
 uuid = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-version = "1.92.3"
+version = "1.92.5"
 
 [[QuadGK]]
 deps = ["DataStructures", "LinearAlgebra"]
@@ -848,9 +850,9 @@ uuid = "112f6efa-9a02-5b7d-90c0-432ed331239a"
 version = "2.6.0"
 
 [[VersionParsing]]
-git-tree-sha1 = "80229be1f670524750d905f8fc8148e5a8c4537f"
+git-tree-sha1 = "e575cf85535c7c3292b4d89d89cc29e8c3098e47"
 uuid = "81def892-9a0e-5fdd-b105-ffc91e053289"
-version = "1.2.0"
+version = "1.2.1"
 
 [[WeakRefStrings]]
 deps = ["DataAPI", "Parsers", "Random", "Serialization", "Test"]
@@ -866,9 +868,9 @@ version = "0.5.3"
 
 [[XLSX]]
 deps = ["Dates", "EzXML", "Printf", "Tables", "ZipFile"]
-git-tree-sha1 = "7744a996cdd07b05f58392eb1318bca0c4cc1dc7"
+git-tree-sha1 = "96d05d01d6657583a22410e3ba416c75c72d6e1d"
 uuid = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
-version = "0.7.6"
+version = "0.7.8"
 
 [[XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
