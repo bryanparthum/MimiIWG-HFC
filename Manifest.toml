@@ -474,7 +474,7 @@ version = "3.8.6"
 
 [[MimiIWG]]
 deps = ["CSVFiles", "DataFrames", "Dates", "DelimitedFiles", "Distributions", "ExcelReaders", "Interpolations", "Mimi", "MimiDICE2010", "MimiFUND", "MimiPAGE2009", "Query", "Statistics", "StatsBase", "XLSX"]
-git-tree-sha1 = "bb48a48bae691de672c9839a4fd29da7b9666606"
+git-tree-sha1 = "bfb4bb6d68e8a1a5f7fc5620cf5289c6243b7804"
 repo-rev = "master"
 repo-url = "https://github.com/rffscghg/MimiIWG.jl.git"
 uuid = "b1d80750-afbf-11e9-0666-4f25b2ea2b65"

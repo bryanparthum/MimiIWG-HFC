@@ -2,20 +2,11 @@
 ############################  PREAMBLE
 ######################################
 
-### set working directory
-cd("SET TO THE LOCATION OF THIS FOLDER")
-
-### Set new environment
+### Set the environment
 using Pkg
-Pkg.activate("environments/sc-hfcs")
+Pkg.activate(joinpath(@__DIR__, ".."))
 
-# ### add packages
-# Pkg.add("Revise")
-# Pkg.add("Random")
-# Pkg.add("Mimi")
-# Pkg.develop("MimiIWG")
-
-### precompile
+### precompile and add packages to the namespace
 using Revise, Random, Mimi, MimiIWG
 
 ######################################
@@ -38,7 +29,7 @@ MimiIWG.run_scc_mcs(DICE, gas=:HFC134a, trials=N,
                     discount_rates=discount_rates,
                     domestic = true,
                     tables= true,
-                    output_dir="data/hfc134a/dice")
+                    output_dir=joinpath(@__DIR__, "..", "data/hfc134a/dice"))
 
 ######################################
 ################################  PAGE
@@ -51,7 +42,7 @@ MimiIWG.run_scc_mcs(PAGE, gas=:HFC134a, trials=N,
                     discount_rates=discount_rates,
                     domestic = true,
                     tables= true,
-                    output_dir="data/hfc134a/page")
+                    output_dir=joinpath(@__DIR__, "..", "data/hfc134a/page"))
 
 ######################################
 ################################  FUND
@@ -64,6 +55,6 @@ MimiIWG.run_scc_mcs(FUND, gas=:HFC134a, trials=N,
                     discount_rates=discount_rates,
                     domestic = true,
                     tables= true,
-                    output_dir="data/hfc134a/fund")
+                    output_dir=joinpath(@__DIR__, "..", "data/hfc134a/fund"))
 
 # ## END OF SCRIPT. Have a great day!
