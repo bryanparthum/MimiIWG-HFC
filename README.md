@@ -19,23 +19,6 @@ The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframewo
 
 3. final - This folder contains the final numbers used to estimate the climate benefits in the 2021 Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act. 
 
-## Additional Information
-
-The raw output from the Mimi runs, once completed, will need to be dropped into the data folder under the appropriate gas and model combination folders, along with the discontinuity
-results (i.e., the folder titled: "discontinuity_mismatch" in the Mimi output).
-
-There are three postprocessing scripts.
-
-1. `2_clean_discontinuities.R` - This script cleans the raw output from Mimi that identifies the years in which a temperature anomaly occured in each monte-carlo run 
-and prepares them for use in the subequent script. This is consistent with the methods described in the 
-[2016 TSD](https://www.epa.gov/sites/default/files/2016-12/documents/addendum_to_sc-ghg_tsd_august_2016.pdf) and applies them to all HFCs.
-
-2. `3_clean_sc_hfcs.R` - This script cleans the raw output from the Mimi monte-carlo runs. It also pairs all of the discontinuities (temperature anomalies) estimated 
-in the PAGE monte-carlo runs for all HFCs and replaces the values with missings. This is consistent with the methods described in the 
-[2016 TSD](https://www.epa.gov/sites/default/files/2016-12/documents/addendum_to_sc-ghg_tsd_august_2016.pdf).
-
-3. `4_clean_data_to_share.R` - This script simply compiles all the cleaned individual runs from the previous script and prepares the annual unrounded average SC-HFCs used to estimate the climate benefits in the 2021 "[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
-
 ## Running the Scripts
 
 Begin by downloading the latest version of the [julia language](https://julialang.org/downloads/), and then clone this repository to your local machine with
@@ -62,6 +45,23 @@ then press delete/backspace to exit the Pkg REPL.
 
 Now you may run the main script with
 ```julia
-include("core/1_estimate_sc_hfcs.jl")
+include("code/1_estimate_sc_hfcs.jl")
 ```
 and proceed with the postprocessing scripts from there!
+
+## Additional Information
+
+The raw output from the Mimi runs, once completed, will need to be dropped into the data folder under the appropriate gas and model combination folders, along with the discontinuity
+results (i.e., the folder titled: "discontinuity_mismatch" in the Mimi output).
+
+There are three postprocessing scripts.
+
+1. `2_clean_discontinuities.R` - This script cleans the raw output from Mimi that identifies the years in which a temperature anomaly occured in each monte-carlo run 
+and prepares them for use in the subequent script. This is consistent with the methods described in the 
+[2016 TSD](https://www.epa.gov/sites/default/files/2016-12/documents/addendum_to_sc-ghg_tsd_august_2016.pdf) and applies them to all HFCs.
+
+2. `3_clean_sc_hfcs.R` - This script cleans the raw output from the Mimi monte-carlo runs. It also pairs all of the discontinuities (temperature anomalies) estimated 
+in the PAGE monte-carlo runs for all HFCs and replaces the values with missings. This is consistent with the methods described in the 
+[2016 TSD](https://www.epa.gov/sites/default/files/2016-12/documents/addendum_to_sc-ghg_tsd_august_2016.pdf).
+
+3. `4_clean_data_to_share.R` - This script simply compiles all the cleaned individual runs from the previous script and prepares the annual unrounded average SC-HFCs used to estimate the climate benefits in the 2021 "[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
