@@ -14,7 +14,7 @@ using Revise, Random, Mimi, MimiIWG
 ######################################
 
 seed = 42
-N = 1
+N = 100 # set thee number of trials
 years = collect(2020:5:2060)
 discount_rates = [0.02,0.025,0.03,0.05]
 
