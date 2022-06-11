@@ -1,6 +1,8 @@
+# NOTE: this repo has been relocated to [github.com/USEPA/sc-hfc](https://github.com/USEPA/sc-hfc). 
+
 # The Social Cost of Hydroflourocarbons included in the 2021 Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act
 
-**NOTE: this repo has been relocated to [github.com/USEPA/sc-hfc](https://github.com/USEPA/sc-hfc). 
+
 
 This repo contains data and code for reproducing The Social Cost of Hydroflourocarbons  (SC-HFCs) included in the 2021 
 "[Phasedown of Hydrofluorocarbons: Establishing the Allowance Allocation and Trading Program under the AIM Act](https://www.epa.gov/climate-hfcs-reduction/proposed-rule-phasedown-hydrofluorocarbons-establishing-allowance-allocation)". 
